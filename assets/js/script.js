@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Duong Quoc Vuong";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -146,9 +146,9 @@ function showProjects(projects) {
 
 }
 
-// fetchData().then(data => {
-//     showSkills(data);
-// });
+fetchData().then(data => {
+    showSkills(data);
+});
 
 fetchData("projects").then(data => {
     showProjects(data);

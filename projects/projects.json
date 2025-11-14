@@ -1,16 +1,12 @@
 [
-
   {
     "name": "Portfolio Website",
     "desc": "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
-    "image": "./assets/images/projects/portfolio1.PNG",
+    "image": "portfolio1", 
     "category": "basicweb",
     "links": {
       "view": "#",
       "code": "https://vuongduongg.github.io/my-portfolio-final/"
     }
   }
-  
-
-  
 ]
