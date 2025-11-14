@@ -1,25 +1,16 @@
 [
 
   {
-    "name": "Bootstrap Portfolio",
-    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
-    "image": "bootstrapportfolio",
+    "name": "Portfolio Website",
+    "desc": "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    "image": "./assets/images/projects/portfolio1.PNG",
     "category": "basicweb",
     "links": {
       "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
-    "image": "bootstraptemplate",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
+      "code": "https://vuongduongg.github.io/my-portfolio-final/"
     }
   }
+  
 
   
 ]
