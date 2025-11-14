@@ -2,7 +2,7 @@
   {
     "name": "Portfolio Website",
     "desc": "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
-    "image": "portfolio1.png", 
+    "image": "portfolio1", 
     "category": "basicweb",
     "links": {
       "view": "#",
@@ -12,7 +12,7 @@
     {
     "name": "Movie ticket sales software",
     "desc": "Sell ticket!",
-    "image": "vephim.png", 
+    "image": "vephim", 
     "category": "basicapp",
     "links": {
       "view": "#",
@@ -22,7 +22,7 @@
     {
     "name": "Bus ticketing software",
     "desc": "Sell ticket",
-    "image": "vexe.png", 
+    "image": "vexe", 
     "category": "basicapp",
     "links": {
       "view": "#",
