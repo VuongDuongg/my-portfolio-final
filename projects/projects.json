@@ -8,5 +8,25 @@
       "view": "#",
       "code": "https://vuongduongg.github.io/my-portfolio-final/"
     }
+  },
+    {
+    "name": "Movie ticket sales software",
+    "desc": "Sell ticket!",
+    "image": "vephim", 
+    "category": "basicapp",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/VuongDuongg"
+    }
+  },
+    {
+    "name": "Bus ticketing software",
+    "desc": "Sell ticket",
+    "image": "vexe", 
+    "category": "basicapp",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/VuongDuongg"
+    }
   }
 ]
