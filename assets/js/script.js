@@ -79,15 +79,15 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-// async function fetchData(type = "skills") {
-//     let response
-//     type === "skills" ?
-//         response = await fetch("skills.json")
-//         :
-//         response = await fetch("./projects/projects.json")
-//     const data = await response.json();
-//     return data;
-// }
+async function fetchData(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skills.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
@@ -146,13 +146,13 @@ function showProjects(projects) {
 
 }
 
-fetchData().then(data => {
-    showSkills(data);
-});
+// fetchData().then(data => {
+//     showSkills(data);
+// });
 
-fetchData("projects").then(data => {
-    showProjects(data);
-});
+// fetchData("projects").then(data => {
+//     showProjects(data);
+// });
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
